@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Section 5: Advanced JavaScript: Objects and Functions</title>
+    </head>
+
+    <body>
+        <h1>Section 5: Advanced JavaScript: Objects and Functions</h1>
+        <p>Every JavaScript object has a <strong>prototype property</strong>, which makes inheritance possible in JavaScript.</p>
+        <p>The prototype property of an object is where we put methods and properties that we want <strong>other objects to inherit</strong>.</p>
+        <p>The Constructor's prototype property is <strong>NOT</strong> the prototype of the Constructor itself, it's the prototype of <strong>ALL</strong> instances that are created through it.</p>
+        <p>When a certain method (or property) is called, the search starts in the object itself, and if it cannot be found, the search moves on to the object's prototype. This continues until the method is found: <strong>prototype chain</strong>.</p>
+        <p><strong>Closure:</strong> An inner function has alway access to the variables and parameters of its outer function, even after the outer function has returned.</p>
+        <script src="script.js"></script>
+    </body>
+</html>
